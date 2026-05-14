@@ -1,47 +1,31 @@
-# Grama-Urja — Android (Kotlin + Jetpack Compose)
+User Roles & Permissions
 
-## What's included
+Farmer (Default): Can view power status, select zone, and use pump timer.
 
-- All 6 screens: **Auth, Home, Zones, Pump Timer, Settings, Admin**
-- **Supabase Kotlin SDK** for auth, database, realtime
-- **Background notifications** via a foreground service (`PowerWatchService`)
-  that keeps a Realtime channel open and posts an OS notification when the
-  power status changes — works even when the app is closed (as long as the
-  phone has internet)
-- **3 languages**: English, Hindi, Kannada
-- Material 3 theme matching the green palette of the web app
+Admin (sharmarithika21@gmail.com): Full access to add/delete zones and manage user roles.
 
-## How to open in Android Studio
+General Access: Any new account created is restricted to view-only mode for reports.
 
-1. **Install Android Studio Hedgehog (2023.1.1) or newer.**
-2. Open Android Studio → **File → Open** → select this `grama-urja-android`
-   folder.
-3. Android Studio will prompt to install the Android Gradle Plugin and SDKs
-   it needs (compileSdk 34, JDK 17). Accept all prompts.
-4. When asked to **generate the Gradle wrapper**, click yes — or open a
-   terminal in the project folder and run `gradle wrapper` (requires Gradle
-   8.7 installed locally). The wrapper download script is intentionally not
-   included to keep the zip small.
-5. Wait for **Gradle sync** to finish (5–10 minutes the first time, it
-   downloads dependencies).
-6. Connect an Android phone (USB debugging on) **or** create an emulator.
-7. Click  **Run**.
+Key Technical Highlights
 
-## Login
+Language: Kotlin
 
-Admin mail: Sharmarithika21@gmail.com
-Password:Minty@042(dummy password)
+UI Framework: Jetpack Compose + Material 3
 
+Architecture: Single-activity with Compose Navigation
 
-## For your college report
+Backend: Supabase (PostgreSQL, Auth, Realtime)
 
-Tech stack to mention:
-- **Language**: Kotlin
-- **UI**: Jetpack Compose + Material 3
-- **Architecture**: Single-activity, Compose Navigation, Repository pattern
-- **Backend**: Supabase (PostgreSQL + Auth + Realtime), connected via the
-  official `supabase-kt` SDK
-- **Background work**: Android Foreground Service + Coroutines + Realtime
-  WebSocket subscription
-- **Notifications**: `NotificationManager` with high-importance channel
-- **Min SDK**: 24 (Android 7.0); **Target SDK**: 34 (Android 14)
+Background Work: Android Foreground Service for Realtime alerts
+
+Notifications: High-importance channel via NotificationManager
+
+System Specifications
+
+Min SDK: 24 (Android 7.0)
+
+Target SDK: 34 (Android 14)
+
+Build Tool: Gradle 8.7
+
+JDK Version: 17
