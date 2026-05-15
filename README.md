@@ -185,14 +185,16 @@ These were in my "out of scope" list in the SRS so I didn't build them, but the 
 ```
 
 ---
-## Screenshots 
-<img width="771" height="1600" alt="image" src="https://github.com/user-attachments/assets/a98c78de-6f30-4f11-b56c-da30530140eb" />
-<img width="770" height="1600" alt="image" src="https://github.com/user-attachments/assets/fc9761a2-fb49-4072-9547-b569300e0d00" />
-<img width="768" height="1600" alt="image" src="https://github.com/user-attachments/assets/864ce8e5-41e7-474a-bdac-eddfa10d69a1" />
-<img width="775" height="1600" alt="image" src="https://github.com/user-attachments/assets/865840dc-3ff9-4c50-81a1-1d24300e3bd4" />
-<img width="1080" height="2232" alt="image" src="https://github.com/user-attachments/assets/27c36a7d-e1b0-4bbc-987c-3d1bf9778a6b" />
-<img width="771" height="1600" alt="image" src="https://github.com/user-attachments/assets/6adf83dd-8a96-4f8e-9189-f309f9503127" />
-<img width="784" height="1599" alt="image" src="https://github.com/user-attachments/assets/18c3df60-3fb8-4b81-b766-cabe58b12295" />
+### 📱 App Overview & Interface
+
+| Home & Zones | Monitoring Service | Admin & Settings |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/a98c78de-6f30-4f11-b56c-da30530140eb" width="250" /> | <img src="https://github.com/user-attachments/assets/fc9761a2-fb49-4072-9547-b569300e0d00" width="250" /> | <img src="https://github.com/user-attachments/assets/864ce8e5-41e7-474a-bdac-eddfa10d69a1" width="250" /> |
+| *Zone Dashboard* | *Real-time Listening* | *Status Controls* |
+| <img src="https://github.com/user-attachments/assets/865840dc-3ff9-4c50-81a1-1d24300e3bd4" width="250" /> | <img src="https://github.com/user-attachments/assets/27c36a7d-e1b0-4bbc-987c-3d1bf9778a6b" width="250" /> | <img src="https://github.com/user-attachments/assets/6adf83dd-8a96-4f8e-9189-f309f9503127" width="250" /> |
+| *Preference Settings* | *Notification Alerts* | *Language Support* |
+| <img src="https://github.com/user-attachments/assets/18c3df60-3fb8-4b81-b766-cabe58b12295" width="250" /> | | |
+| *App Configuration* | | |
 
 
 ## Credits
